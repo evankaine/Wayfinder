@@ -13,7 +13,7 @@ This project allows the user to use a Star Wars "Wayfinder" to find planets and 
 https://swapi.dev/api/planets/
 
 ```json
-``` {
+{
     "count": 60, 
     "next": "https://swapi.dev/api/planets/?page=2", 
     "previous": null, 
@@ -92,7 +92,7 @@ https://swapi.dev/api/planets/
             "edited": "2014-12-20T20:58:18.421000Z", 
             "url": "https://swapi.dev/api/planets/3/"
         }
-
+```
 ## Wireframes
 
 Upload images of your wireframes to an image hosting site or add them to an assets folder in your repo and link them here with a description of each specific wireframe.
