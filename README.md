@@ -95,7 +95,7 @@ https://swapi.dev/api/planets/
 ```
 ## Wireframes
 
-https://i.imgur.com/4xh8P5a.png
+https://i.imgur.com/z1sZLds.png
 
 #### MVP 
 *These are examples only. Replace with your own MVP features.*
