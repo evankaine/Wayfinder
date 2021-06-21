@@ -95,7 +95,7 @@ https://swapi.dev/api/planets/
 ```
 ## Wireframes
 
-Upload images of your wireframes to an image hosting site or add them to an assets folder in your repo and link them here with a description of each specific wireframe.
+https://i.imgur.com/4xh8P5a.png
 
 ### MVP/PostMVP
 
