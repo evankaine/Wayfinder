@@ -97,22 +97,18 @@ https://swapi.dev/api/planets/
 
 https://i.imgur.com/4xh8P5a.png
 
-### MVP/PostMVP
-
-The functionality will then be divided into two separate lists: MPV and PostMVP.  Carefully decided what is placed into your MVP as the client will expect this functionality to be implemented upon project completion.  
-
 #### MVP 
 *These are examples only. Replace with your own MVP features.*
 
-- Find and use external api 
-- Render data on page 
-- Allow user to choose favorites 
+- link all 6 api pages to one variable
+- access api data from variable
+- render user selected data to page
 
 #### PostMVP  
 *These are examples only. Replace with your own Post-MVP features.*
 
-- Add second API
-- Use local storage to save user favorites
+- add images to the data (not included in api)
+- add list of characters to their homeplanet that is selected by user 
 
 ## Project Schedule
 
@@ -127,19 +123,18 @@ The functionality will then be divided into two separate lists: MPV and PostMVP.
 
 ## Priority Matrix
 
-wireframe(url)
+https://i.imgur.com/wudRUZY.jpg
 
 ## Timeframes
 
 | Component | Priority | Estimated Time | Time Invested | Actual Time |
 | --- | :---: |  :---: | :---: | :---: |
-| Adding Form | H | 3hrs| 3.5hrs | 3.5hrs |
-| Adding Form | H | 3hrs| 3.5hrs | 3.5hrs |
-| Adding Form | H | 3hrs| 3.5hrs | 3.5hrs |
-| Adding Form | H | 3hrs| 3.5hrs | 3.5hrs |
-| Adding Form | H | 3hrs| 3.5hrs | 3.5hrs |
-| Adding Form | H | 3hrs| 3.5hrs | 3.5hrs |
-| Adding Form | H | 3hrs| 3.5hrs | 3.5hrs |
+|  | H | 3hrs| -- | -- |
+| Adding Form | H | 3hrs| -- | -- |
+| Adding Form | H | 3hrs| -- | -- |
+| Adding Form | H | 3hrs| -- | -- |
+| Adding Form | H | 3hrs| -- | -- |
+| Adding Form | H | 3hrs| -- | -- |
 | Working with API | H | 3hrs| 2.5hrs | 2.5hrs |
 | Total | H | 6hrs| 5hrs | 5hrs |
 
