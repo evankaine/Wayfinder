@@ -55,18 +55,4 @@ async function getData() {
 getData()
 
 
-// const minusButton = document.getElementById('minus');
-// const plusButton = document.getElementById('plus');
-
-// minusButton.addEventListener('click', event => {
-//   event.preventDefault();
-//   let change = page - 1
-//   console.log(change)
-// });
-
-// plusButton.addEventListener('click', event => {
-//   event.preventDefault();
-//   let change = page + 1
-//   console.log(change)
-// });
 
