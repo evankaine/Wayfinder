@@ -99,12 +99,13 @@ https://i.imgur.com/z1sZLds.png
 
 #### MVP 
 
-- link all 6 api pages to one variable
+- render plaent data via multiple pages using next page or previous page button ( - , + )
 - access api data from variable
 - render user selected data to page
 
 #### PostMVP  
 
+- allow user to click on planet and render planet data
 - add images to the data (not included in api)
 - add list of characters to their homeplanet that is selected by user 
 
