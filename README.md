@@ -121,7 +121,7 @@ https://i.imgur.com/z1sZLds.png
 
 ## Priority Matrix
 
-https://i.imgur.com/wudRUZY.jpg
+https://i.imgur.com/8Gbv5CR.png
 
 ## Timeframes
 
