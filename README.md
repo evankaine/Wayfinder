@@ -148,8 +148,6 @@ https://i.imgur.com/8Gbv5CR.png
 
 ## Code Snippet
 
-Use this section to include a brief code snippet of functionality that you are proud of and a brief description.  
-
 ```
 
 ```
