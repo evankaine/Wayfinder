@@ -100,7 +100,7 @@ https://i.imgur.com/z1sZLds.png
 #### MVP 
 
 - render plaent data via multiple pages using next page or previous page button ( - , + )
-- access api data from variable
+- remove previous page data
 - render user selected data to page
 
 #### PostMVP  
