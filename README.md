@@ -6,7 +6,7 @@ Wayfinder
 
 ## Project Description
 
-This project allows the user to search the Star Wars galaxy to find planets and access detailed infromation about the desired location.
+This project allows the user to search the Star Wars galaxy to find planets and access detailed information about the desired location.
 
 ## API and Data Sample
 
