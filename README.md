@@ -146,7 +146,7 @@ https://i.imgur.com/wudRUZY.jpg
 | media query info container | H | 2hrs| -- | -- |
 | add images and append to DOM | H | 3hrs| -- | -- |
 | media query images | H | 2hrs| -- | -- |
-| Total | H | 28hrs| -- | -- |
+| Total | H | 38hrs| -- | -- |
 
 ## Code Snippet
 
