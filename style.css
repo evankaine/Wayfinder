@@ -1,0 +1,23 @@
+
+
+
+#logo {
+  font-size: 30px;
+  font-family: fantasy;
+  display: flex;
+  justify-content: flex-start;
+}
+
+
+
+
+.planet-list{
+  display: flex;
+  order: 5;
+  flex-grow: 1;
+  flex-wrap: wrap;
+  flex-shrink: 1;
+  flex-direction: row;
+  justify-content: space-around;
+  
+}

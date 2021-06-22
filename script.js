@@ -2,18 +2,32 @@
 
 const planetList = document.querySelector('.planet-list')
 
-let page = 0,
-    counterrx = setInterval(timerrx, 1), 
-  counterry; 
 
+const minusButton = document.getElementById('minus');
+const plusButton = document.getElementById('plus');
+
+  let page = 1
   
+  minusButton.addEventListener('click', event => {
+    event.preventDefault();
+    removeThis()
+    page--
+    getData(page)
+    console.log(page)
+    return page
+  });
 
-  
+  plusButton.addEventListener('click', event => {
+    event.preventDefault();
+    removeThis()
+    page++
+    getData(page)
+    console.log(page)
+    return page
+  });
 
 
-
-
-async function getData() {
+async function getData(a) {
   try {
     const response = await axios.get(`https://swapi.dev/api/planets/?page=${page}`)
 
@@ -52,7 +66,14 @@ async function getData() {
     console.log(error)
   }
 }
-getData()
+getData(page)
+
+
+function removeThis() {
+  while (planetList.lastChild) {
+    planetList.removeChild(planetList.lastChild)
+  }
+}
 
 
 
