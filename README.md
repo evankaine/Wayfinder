@@ -99,9 +99,9 @@ https://i.imgur.com/z1sZLds.png
 
 #### MVP 
 
-- render plaent data via multiple pages using next page or previous page button ( - , + )
+- render first 10 planets on page (name, climate ,terrain) 
 - remove previous page data
-- render user selected data to page
+- allow user to cycle through next 10 planets
 
 #### PostMVP  
 
