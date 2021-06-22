@@ -6,7 +6,7 @@ Wayfinder
 
 ## Project Description
 
-This project allows the user to use a Star Wars "Wayfinder" to find planets and access detailed infromation about the desired location.
+This project allows the user to search the Star Wars galaxy to find planets and access detailed infromation about the desired location.
 
 ## API and Data Sample
 
@@ -98,14 +98,12 @@ https://swapi.dev/api/planets/
 https://i.imgur.com/z1sZLds.png
 
 #### MVP 
-*These are examples only. Replace with your own MVP features.*
 
 - link all 6 api pages to one variable
 - access api data from variable
 - render user selected data to page
 
 #### PostMVP  
-*These are examples only. Replace with your own Post-MVP features.*
 
 - add images to the data (not included in api)
 - add list of characters to their homeplanet that is selected by user 
@@ -153,10 +151,8 @@ https://i.imgur.com/wudRUZY.jpg
 Use this section to include a brief code snippet of functionality that you are proud of and a brief description.  
 
 ```
-function reverse(string) {
-	// here is the code to reverse a string of text
-}
+
 ```
 
 ## Change Log
- Use this section to document what changes were made and the reasoning behind those changes.  
+ 
