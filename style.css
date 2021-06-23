@@ -1,23 +1,80 @@
+html {
+  height: 100%;
+}
 
+body {
+  flex-direction: row;
+  background-image: linear-gradient(to bottom right,	#39372a,#7e7863);
+  color: white;
+}
 
+h1 {
+  text-align: left;
+  color: white;
+}
+.btn{
+  text-align: left;
+}
+button {
+  background-color: white;
+  color: black;
+  width: 50px;
+}
 
 #logo {
   font-size: 30px;
   font-family: fantasy;
   display: flex;
   justify-content: flex-start;
+  color: white;
 }
-
+#logo span {
+  color: #71893c;
+}
 
 
 
 .planet-list{
   display: flex;
-  order: 5;
-  flex-grow: 1;
-  flex-wrap: wrap;
-  flex-shrink: 1;
   flex-direction: row;
-  justify-content: space-around;
+  flex-wrap: wrap;
+  padding: 0px 0px 0px 10px;
+  justify-content: space-evenly;
+  /* width: 40%; */
+  /* border: 1px solid black; */
+}
+.cards{
+  border-radius: 4px;
+
+  padding: 0px 5px 0px 5px;
+  max-width: 125px;
+  min-width: 125px;
+  max-height: 150px;
+  min-height: 150px;
+  border: 1px solid black; 
+  background: 	#71893c;
+  
+
+  /* https://www.w3schools.com/howto/howto_css_cards.asp */
+  box-shadow: 0 4px 8px 0 black;
+  transition: 0.3s;
+}
+.cards:hover {
+  box-shadow: 0 18px 16px 0 black;
+}
+h3{
+  font-size: 14px;
+ text-align: center;
+padding: 5px 0px 20px 0px;
+ margin: 0 auto;
+ color:black
+
+}
+h4 {
+  font-size: 12px;
+  text-align: center;
+  padding: 2.5px 5px 2.5px 5px;
+  margin: 0 auto;
+  color: black;
   
 }

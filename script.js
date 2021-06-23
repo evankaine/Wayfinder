@@ -6,12 +6,13 @@ const planetList = document.querySelector('.planet-list')
 const minusButton = document.getElementById('minus');
 const plusButton = document.getElementById('plus');
 
-  let page = 1
+let page = 1
   
-  minusButton.addEventListener('click', event => {
-    event.preventDefault();
-    removeThis()
-    page--
+minusButton.addEventListener('click', event => {
+  event.preventDefault();
+  removeThis()
+  page--
+
     getData(page)
     console.log(page)
     return page
@@ -26,7 +27,6 @@ const plusButton = document.getElementById('plus');
     return page
   });
 
-
 async function getData(a) {
   try {
     const response = await axios.get(`https://swapi.dev/api/planets/?page=${page}`)
@@ -36,6 +36,7 @@ async function getData(a) {
     for (i = 0; i < renderList.length; i++) {
 
       const titleDiv = document.createElement('div')
+      titleDiv.classList.add('cards')
       planetList.append(titleDiv)
 
       const titleName = document.createElement('h3')
