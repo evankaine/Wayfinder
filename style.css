@@ -1,36 +1,93 @@
 html {
   height: 100%;
+  overflow: hidden;
 }
 
 body {
-  flex-direction: row;
-  background-image: linear-gradient(to bottom right,	#39372a,#7e7863);
+  /* flex-direction: row; */
+  background-image: linear-gradient(to bottom right,#7e7863, #39372a);
   color: white;
+  height: 100%;
 }
 
-h1 {
-  text-align: left;
-  color: white;
+header {
+  padding: 10px;
+  /* display: flex;
+  flex-direction: row; */
+  overflow: auto;
+  width: 100%;
 }
-.btn{
-  text-align: left;
-}
-button {
-  background-color: white;
-  color: black;
-  width: 50px;
-}
+
+
+
+
+
 
 #logo {
   font-size: 30px;
   font-family: fantasy;
-  display: flex;
-  justify-content: flex-start;
-  color: white;
+  
+  
+  color: black;
 }
+
 #logo span {
   color: #71893c;
+  font-size: 40px;
 }
+
+
+
+
+
+
+img.linkedin {
+  max-width: 35px;
+  min-width: 35px;
+  max-height: auto;
+  padding-right: 5px;
+  float: right;
+  padding: 15px 22px 10px 5px;
+}
+
+img.github {
+  max-width: 35px;
+  min-width: 35px;
+  max-height: auto;
+  padding-left: 5px;
+  float: right;
+  padding: 15px 5px 10px 5px;
+}
+
+img.linkedin:hover{
+  opacity: 0.5;
+}
+
+img.github:hover{
+  opacity: 0.5;
+}
+
+
+
+
+
+
+.btn{
+  text-align: center;
+  margin: 25px 0px 0px 5px;
+}
+
+button {
+  background: #71893c;
+  color: black;
+  width: 80px;
+  height: 40px;
+  margin: 0px 10px 0px 10px;
+  font-size: 20px;
+}
+
+
+
 
 
 
@@ -38,43 +95,49 @@ button {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  padding: 0px 0px 0px 10px;
+  margin: 0px 200px 0px 200px;
+  justify-content: flex-end;
   justify-content: space-evenly;
-  /* width: 40%; */
-  /* border: 1px solid black; */
+  
 }
+
 .cards{
   border-radius: 4px;
 
   padding: 0px 5px 0px 5px;
-  max-width: 125px;
-  min-width: 125px;
-  max-height: 150px;
-  min-height: 150px;
+  max-width: 140px;
+  min-width: 140px;
+  max-height: 220px;
+  min-height: 220px;
   border: 1px solid black; 
   background: 	#71893c;
-  
-
+  margin: 5px 0px 5px 0px;
   /* https://www.w3schools.com/howto/howto_css_cards.asp */
   box-shadow: 0 4px 8px 0 black;
   transition: 0.3s;
 }
-.cards:hover {
-  box-shadow: 0 18px 16px 0 black;
+
+.cards:hover{
+  box-shadow: 0 8px 16px 0 black;
 }
+
 h3{
   font-size: 14px;
  text-align: center;
-padding: 5px 0px 20px 0px;
+padding: 10px 0px 80px 0px;
  margin: 0 auto;
  color:black
-
 }
+
 h4 {
   font-size: 12px;
   text-align: center;
   padding: 2.5px 5px 2.5px 5px;
   margin: 0 auto;
   color: black;
-  
 }
+
+
+
+
+
