@@ -25,7 +25,7 @@ minusButton.addEventListener('click', event => {
       if (page < 6) {
         page++
       }
-      getData(page)
+      getData(page) 
     console.log(page)
 
     return page

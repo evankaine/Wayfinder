@@ -12,8 +12,6 @@ body {
 
 header {
   padding: 10px;
-  /* display: flex;
-  flex-direction: row; */
   overflow: auto;
   width: 100%;
 }
@@ -24,7 +22,7 @@ header {
 
 
 #logo {
-  font-size: 30px;
+  font-size: 40px;
   font-family: fantasy;
   
   
@@ -95,7 +93,7 @@ button {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  margin: 0px 200px 0px 200px;
+  margin: 0px 150px 0px 150px;
   justify-content: flex-end;
   justify-content: space-evenly;
   
@@ -120,11 +118,14 @@ button {
 .cards:hover{
   box-shadow: 0 8px 16px 0 black;
 }
+.cards:focus {
+  width: 500px;
+}
 
 h3{
   font-size: 14px;
  text-align: center;
-padding: 10px 0px 80px 0px;
+padding: 10px 0px 60px 0px;
  margin: 0 auto;
  color:black
 }
@@ -136,6 +137,7 @@ h4 {
   margin: 0 auto;
   color: black;
 }
+
 
 
 
