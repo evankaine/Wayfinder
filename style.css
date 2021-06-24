@@ -1,17 +1,27 @@
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
 html {
-  height: 100%;
-  overflow: hidden;
+    background: linear-gradient(to bottom right, #4e4e50, #6f2232) no-repeat center center fixed;
+    background-size: cover;
+
+ 
+ 
 }
 
 body {
-  /* flex-direction: row; */
-  background-image: linear-gradient(to bottom right,#7e7863, #39372a);
-  color: white;
+  color: whitesmoke;
   height: 100%;
+  margin: 0;
+  padding: 0;
+  
 }
 
 header {
-  padding: 10px;
+  padding: 5px;
   overflow: auto;
   width: 100%;
 }
@@ -26,12 +36,13 @@ header {
   font-family: fantasy;
   
   
-  color: black;
+  color: whitesmoke;
 }
 
 #logo span {
-  color: #71893c;
+  color: #6f2232;
   font-size: 40px;
+  padding: 0px 0px 0px 5px;
 }
 
 
@@ -43,18 +54,19 @@ img.linkedin {
   max-width: 35px;
   min-width: 35px;
   max-height: auto;
-  padding-right: 5px;
+  /* padding-right: 5px; */
   float: right;
-  padding: 15px 22px 10px 5px;
+  padding: 5px 22px 10px 5px;
+  
 }
 
 img.github {
   max-width: 35px;
   min-width: 35px;
   max-height: auto;
-  padding-left: 5px;
+  /* padding-left: 5px; */
   float: right;
-  padding: 15px 5px 10px 5px;
+  padding: 5px 5px 10px 5px;
 }
 
 img.linkedin:hover{
@@ -72,16 +84,24 @@ img.github:hover{
 
 .btn{
   text-align: center;
-  margin: 25px 0px 0px 5px;
+  /* margin: 0px 0px 0px 5px; */
+  
 }
 
 button {
-  background: #71893c;
-  color: black;
-  width: 80px;
-  height: 40px;
-  margin: 0px 10px 0px 10px;
-  font-size: 20px;
+  background: #6f2232;
+  color: whitesmoke;
+  width: 85px;
+  height: 35px;
+  margin: 0px 100px 20px 100px;
+  font-size: 12px;
+  border-color: transparent;
+  opacity: .6;
+  
+}
+
+button:hover{
+  opacity:1;
 }
 
 
@@ -100,19 +120,21 @@ button {
 }
 
 .cards{
-  border-radius: 4px;
+  border-radius: 2px;
 
   padding: 0px 5px 0px 5px;
   max-width: 140px;
   min-width: 140px;
   max-height: 220px;
   min-height: 220px;
-  border: 1px solid black; 
-  background: 	#71893c;
+  
+  
+  background: 	#1a1a1d;
   margin: 5px 0px 5px 0px;
   /* https://www.w3schools.com/howto/howto_css_cards.asp */
-  box-shadow: 0 4px 8px 0 black;
+  box-shadow: 0 4px 8px 0 #c30734;
   transition: 0.3s;
+  
 }
 
 .cards:hover{
@@ -123,11 +145,14 @@ button {
 }
 
 h3{
-  font-size: 14px;
+  font-size: 17px;
  text-align: center;
 padding: 10px 0px 60px 0px;
  margin: 0 auto;
- color:black
+ color:whitesmoke;
+ font-family: 'Rajdhani', sans-serif;
+  font-weight: 600;
+
 }
 
 h4 {
@@ -135,11 +160,70 @@ h4 {
   text-align: center;
   padding: 2.5px 5px 2.5px 5px;
   margin: 0 auto;
-  color: black;
+  color: whitesmoke;
+  font-family: 'Rajdhani', sans-serif;
+  font-weight: 300;
+}
+
+
+footer {
+  padding: 5px;
+  height: 40px;
+  text-align: left;
+  display: flex;
+  
+  position: fixed;
+  bottom: 0;
+  /* position: relative; */
+  /* bottom: 0; */
+}
+
+.foot {
+  font-size: 12px;
+  font-weight: bold;
+  color: #1a1a1d;
+  padding: 10px 0px 0px 0px;
+  font-family: 'Rajdhani', sans-serif;
+  font-weight: 600;
 }
 
 
 
+
+
+
+
+@media (max-width: 375px){
+  .cards {
+    font-size: small;
+  }
+  img.linkedin {
+    max-width: 20px;
+    min-width: 20px;
+    max-height: auto;
+    padding: 6px 15px 5px 5px;
+  }
+  
+  img.github {
+    max-width: 20px;
+    min-width: 20px;
+    max-height: auto;
+    padding: 6px 5px 5px 5px;
+  }
+  #logo, #logo span {
+    font-size: 25px;
+  }
+  button {
+    width: 50px;
+    height: 20px;
+    font-size: 10px;
+    margin: 0px 60px 20px 60px;
+  }
+  .planet-list {
+    margin: 0px 10px 0px 10px;
+  }
+
+}
 
 
 
