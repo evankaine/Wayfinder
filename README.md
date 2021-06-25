@@ -145,8 +145,7 @@ https://i.imgur.com/8Gbv5CR.png
 | add links to icons | H | 2hrs| 1hr | 1hr |
 | media query planet information cards | H | 2hrs| 2hrs | 2hrs |
 | media query icons | H | 2hrs| 2hrs | 2hrs |
-| media query buttons| H | 2hrs| 1.5hrs | 1.5hrs |
-| media query header| H | 2hrs| 1.5hrs | 1.5hrs |
+| media query header text| H | 2hrs| 1.5hrs | 1.5hrs |
 | media query footer| H | 2hrs| 1hrs | 1hrs |
 | ~~add images and append to DOM~~ | H | 3hrs| -- | -- |
 | ~~media query images~~ | H | 2hrs| -- | -- |
