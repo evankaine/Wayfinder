@@ -128,29 +128,59 @@ https://i.imgur.com/8Gbv5CR.png
 
 | Component | Priority | Estimated Time | Time Invested | Actual Time |
 | --- | :---: |  :---: | :---: | :---: |
-| basic html, css, and javascript | H | 3hrs| -- | -- |
-| click event for search bar | H | 2hr| -- | -- |
-| render planet data to DOM | H | 2hrs| -- | -- |
-| link all 6 pages of api to one variable| H | 3hrs| -- | -- |
-| create remove function | H | 1hr| -- | -- |
-| append specific planet data| H | 3hrs| -- | -- |
-| flexbox page | H | 3hrs| -- | -- |
-| flexbox search results | H | 2hrs| -- | -- |
-| css fonts | H | 1hrs| -- | -- |
-| css UI styling | H | 3hrs| -- | -- |
-| add icons| H | 2hrs| -- | -- |
-| add links to icons | H | 2hrs| -- | -- |
-| media query page | H | 2hrs| -- | -- |
-| media query search | H | 2hrs| -- | -- |
-| media query info container | H | 2hrs| -- | -- |
-| add images and append to DOM | H | 3hrs| -- | -- |
-| media query images | H | 2hrs| -- | -- |
-| Total | H | 38hrs| -- | -- |
+| basic html, css, and javascript | H | 3hrs| 3hrs | 3hrs |
+| ~~click event for search bar~~ | H | 2hr| -- | -- |
+| *ADDED* create increment and decreament buttons | H | 2hrs| 4hrs | 4hrs |
+| render planet data to DOM | H | 2hrs| 2hrs | 2hrs |
+| ~~link all 6 pages of api to one variable~~| H | 3hrs| -- | -- |
+| append specific planet data| H | 3hrs| 2.5hrs | 2.5hrs |
+| display data from all api pages | H | 3hrs| 3hrs | 3hrs |
+| create remove function | H | 1hr| .5hr | .5hr |
+| flexbox planet data | H | 3hrs| 2.5hrs | 2.5hrs |
+| flexbox footer | H | 2hrs| 1hr | 1hr |
+| css fonts | H | 1hrs| 1.5hrs | 1.5hrs |
+| css information cards | H | 3hrs| 3hrs | 3hrs |
+| css button style | H | 3hrs| 4hrs | 4hrs |
+| add icons| H | 2hrs| 1hr | 1hr |
+| add links to icons | H | 2hrs| 1hr | 1hr |
+| media query planet information cards | H | 2hrs| 2hrs | 2hrs |
+| media query icons | H | 2hrs| 2hrs | 2hrs |
+| media query header text| H | 2hrs| 1.5hrs | 1.5hrs |
+| media query footer| H | 2hrs| 1hrs | 1hrs |
+| ~~add images and append to DOM~~ | H | 3hrs| -- | -- |
+| ~~media query images~~ | H | 2hrs| -- | -- |
+| Total | H | 38hrs| 37hrs | 37hrs |
 
 ## Code Snippet
 
 ```
+let page = 1
+  
+minusButton.addEventListener('click', event => {
+  event.preventDefault();
+  removeThis()
+  if (page > 1) {
+    page--
+  } else if (page = 1) {
+    page = 6
+  }
+    getData(page)
+    console.log(page)
+    return page
+  });
 
+  plusButton.addEventListener('click', event => {
+    event.preventDefault();
+    removeThis()
+    if (page < 6) {
+      page++
+    } else if (page = 6) {
+      page = 1
+    }
+    getData(page)
+    console.log(page)
+    return page
+  });
 ```
 
 ## Change Log
