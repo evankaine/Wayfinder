@@ -147,9 +147,9 @@ https://i.imgur.com/8Gbv5CR.png
 | media query icons | H | 2hrs| 2hrs | 2hrs |
 | media query header text| H | 2hrs| 1.5hrs | 1.5hrs |
 | media query footer| H | 2hrs| 1hrs | 1hrs |
-| ~~add images and append to DOM~~ | H | 3hrs| -- | -- |
+| add images and append to DOM | H | 3hrs| 3hrs | 3hrs |
 | ~~media query images~~ | H | 2hrs| -- | -- |
-| Total | H | 38hrs| 37hrs | 37hrs |
+| Total | H | 38hrs| 40hrs | 40hrs |
 
 ## Code Snippet
 
