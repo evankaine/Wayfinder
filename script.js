@@ -1,5 +1,4 @@
 
-
 const planetList = document.querySelector('.planet-list')
 
 const minusButton = document.getElementById('minus');
