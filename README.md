@@ -155,7 +155,33 @@ https://i.imgur.com/8Gbv5CR.png
 ## Code Snippet
 
 ```
+let page = 1
+  
+minusButton.addEventListener('click', event => {
+  event.preventDefault();
+  removeThis()
+  if (page > 1) {
+    page--
+  } else if (page = 1) {
+    page = 6
+  }
+    getData(page)
+    console.log(page)
+    return page
+  });
 
+  plusButton.addEventListener('click', event => {
+    event.preventDefault();
+    removeThis()
+    if (page < 6) {
+      page++
+    } else if (page = 6) {
+      page = 1
+    }
+    getData(page)
+    console.log(page)
+    return page
+  });
 ```
 
 ## Change Log
