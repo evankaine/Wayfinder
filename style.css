@@ -3,23 +3,17 @@
   margin: 0;
   padding: 0;
 }
-
 html {
     background: linear-gradient(to bottom right, #4e4e50, #6f2232) no-repeat center center fixed;
     background-size: cover;
-
- 
- 
+    scroll-behavior: smooth;
 }
-
 body {
   color: whitesmoke;
   height: 100%;
   margin: 0;
   padding: 0;
-  
 }
-
 header {
   padding: 5px;
   overflow: auto;
@@ -38,7 +32,6 @@ header {
   
   color: whitesmoke;
 }
-
 #logo span {
   color: #6f2232;
   font-size: 40px;
@@ -47,32 +40,24 @@ header {
 
 
 
-
-
-
 img.linkedin {
   max-width: 35px;
   min-width: 35px;
   max-height: auto;
-  /* padding-right: 5px; */
   float: right;
   padding: 5px 22px 10px 5px;
   
 }
-
 img.github {
   max-width: 35px;
   min-width: 35px;
   max-height: auto;
-  /* padding-left: 5px; */
   float: right;
   padding: 5px 5px 10px 5px;
 }
-
 img.linkedin:hover{
   opacity: 0.5;
 }
-
 img.github:hover{
   opacity: 0.5;
 }
@@ -83,24 +68,20 @@ img.github:hover{
 
 
 .btn{
-  text-align: center;
-  /* margin: 0px 0px 0px 5px; */
-  
+  text-align: center; 
 }
-
-button {
+#minus, #plus{
   background: #6f2232;
   color: whitesmoke;
   width: 85px;
   height: 35px;
-  margin: 0px 100px 20px 100px;
+  margin: 0px 30px 20px 30px;
   font-size: 12px;
   border-color: transparent;
-  opacity: .6;
-  
+  opacity: .8;
+  cursor: pointer;
 }
-
-button:hover{
+#minus:hover, #plus:hover{
   opacity:1;
 }
 
@@ -113,36 +94,32 @@ button:hover{
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  margin: 0px 150px 0px 150px;
+  margin: 0px 250px 0px 250px;
   justify-content: flex-end;
   justify-content: space-evenly;
   
 }
-
 .cards{
   border-radius: 2px;
-
   padding: 0px 5px 0px 5px;
   max-width: 140px;
   min-width: 140px;
   max-height: 220px;
   min-height: 220px;
-  
-  
   background: 	#1a1a1d;
   margin: 5px 0px 5px 0px;
   /* https://www.w3schools.com/howto/howto_css_cards.asp */
   box-shadow: 0 4px 8px 0 #c30734;
   transition: 0.3s;
-  
 }
-
 .cards:hover{
   box-shadow: 0 8px 16px 0 black;
 }
 .cards:focus {
   width: 500px;
 }
+
+
 
 h3{
   font-size: 17px;
@@ -154,7 +131,6 @@ padding: 10px 0px 60px 0px;
   font-weight: 600;
 
 }
-
 h4 {
   font-size: 12px;
   text-align: center;
@@ -166,27 +142,36 @@ h4 {
 }
 
 
-footer {
-  padding: 5px;
-  height: 40px;
-  text-align: left;
-  display: flex;
-  
-  position: fixed;
-  bottom: 0;
-  /* position: relative; */
-  /* bottom: 0; */
-}
 
+
+
+
+footer {
+  display: flex;
+  justify-content: center;
+}
 .foot {
-  font-size: 12px;
+  font-size: 10px;
   font-weight: bold;
-  color: #1a1a1d;
-  padding: 10px 0px 0px 0px;
+  color: whitesmoke;
   font-family: 'Rajdhani', sans-serif;
   font-weight: 600;
+  opacity: .6;
 }
-
+#scrollToTopBtn {
+  background: #6f2232;
+  color: whitesmoke;
+  width: 85px;
+  height: 35px;
+  margin: 10px 0px 10px 5px;
+  font-size: 12px;
+  border-color: transparent;
+  opacity: .8;
+  cursor: pointer;
+}
+p {
+  text-align: center;
+}
 
 
 
@@ -203,7 +188,6 @@ footer {
     max-height: auto;
     padding: 6px 15px 5px 5px;
   }
-  
   img.github {
     max-width: 20px;
     min-width: 20px;
@@ -213,17 +197,27 @@ footer {
   #logo, #logo span {
     font-size: 25px;
   }
-  button {
-    width: 50px;
-    height: 20px;
-    font-size: 10px;
-    margin: 0px 60px 20px 60px;
-  }
   .planet-list {
     margin: 0px 10px 0px 10px;
   }
-
+  footer {
+    position: relative;
+  }
+  #minus, #plus {
+    width: 65px;
+    height: 25px;
+  }
+  #upbtn{
+    margin: 0px 0px 0px 0px;
+  }
+  
 }
 
-
-
+@media (max-width: 800px){
+  .planet-list {
+    margin: 0px 100px 0px 100px;
+  }
+  .foot {
+    font-size: 8px;
+  }
+}

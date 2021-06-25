@@ -2,7 +2,6 @@
 
 const planetList = document.querySelector('.planet-list')
 
-
 const minusButton = document.getElementById('minus');
 const plusButton = document.getElementById('plus');
 
@@ -13,6 +12,8 @@ minusButton.addEventListener('click', event => {
   removeThis()
   if (page > 1) {
     page--
+  } else if (page = 1) {
+    page = 6
   }
     getData(page)
     console.log(page)
@@ -22,14 +23,16 @@ minusButton.addEventListener('click', event => {
   plusButton.addEventListener('click', event => {
     event.preventDefault();
     removeThis()
-      if (page < 6) {
-        page++
-      }
-      getData(page) 
+    if (page < 6) {
+      page++
+    } else if (page = 6) {
+      page = 1
+    }
+    getData(page)
     console.log(page)
-
     return page
   });
+
 
 
 async function getData() {
@@ -37,7 +40,8 @@ async function getData() {
     const response = await axios.get(`https://swapi.dev/api/planets/?page=${page}`)
 
     const renderList = (response.data.results)
-    // console.log(renderList)
+
+
     for (i = 0; i < renderList.length; i++) {
 
       const titleDiv = document.createElement('div')
@@ -48,7 +52,7 @@ async function getData() {
 
       titleName.textContent = `${renderList[i].name}`
       titleDiv.append(titleName)
-      
+
       const terrain = document.createElement('h4')
       terrain.textContent = `Terrain: ${renderList[i].terrain}`
       titleDiv.append(terrain)
@@ -75,6 +79,7 @@ async function getData() {
 getData(page)
 
 
+
 function removeThis() {
   while (planetList.lastChild) {
     planetList.removeChild(planetList.lastChild)
@@ -83,6 +88,15 @@ function removeThis() {
 
 
 
+// reference https://www.w3schools.com/howto/howto_js_scroll_to_top.asp //
+const goTop = document.getElementById('scrollToTopBtn');
 
+goTop.addEventListener('click', event => {
+  event.preventDefault();
+  topFunction()
+  });
 
-
+  function topFunction() {
+    document.body.scrollTop = 0; 
+    document.documentElement.scrollTop = 0; 
+  }

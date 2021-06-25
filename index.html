@@ -1,37 +1,50 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+
+  <title>Wayfinder</title>
+
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@400;600&display=swap" rel="stylesheet">
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
-      <script defer src="./script.js" charset="utf-8"></script>
-      <link rel="stylesheet" href="./style.css" type="text/css" media="screen" title="no title" charset="utf-8">
-  <title>Wayfinder</title>
+    
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      
+  <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+  <script defer src="./script.js" charset="utf-8"></script>
+  <link rel="stylesheet" href="./style.css" type="text/css" media="screen" title="no title" charset="utf-8">
+  
     <header>
-      <div class="icons" id="logo">
-        <span>△</span>WAYFINDER
-        <a href="https://www.linkedin.com/in/evan-alves-b11982210/" target="_blank"><img class="linkedin" src="https://i.imgur.com/ibdjVE1.png" alt="linkedin"></a> 
-        <a href="https://github.com/evankaine" target="_blank"><img class="github" src="https://i.imgur.com/vOFcERh.png" alt="github"></a>
-      </div> 
+        <div class="icons" id="logo">
+          <span>△</span>WAYFINDER
+          <a href="https://www.linkedin.com/in/evan-alves-b11982210/" target="_blank"><img class="linkedin" src="https://i.imgur.com/ibdjVE1.png" alt="linkedin"></a> 
+          <a href="https://github.com/evankaine" target="_blank"><img class="github" src="https://i.imgur.com/vOFcERh.png" alt="github"></a>
+        </div> 
     </header>
 </head>
 <body>
+
   <div class="btn">
-    <button class="btn btn-three" id="minus"><</button>
-    <button class="btn btn-three" id="plus">></button>
+    <button id="minus"><</button>
+    <button id="plus">></button>
   </div>
   <div class="planet-list"></div>
-    
 
 </body>
+
 <footer>
+
   <div class="foot">
+    
+    <button id="scrollToTopBtn">Back To Top</button>
     <p id="name">Created by: Evan Alves</p>
     <p id="swapi">Powered by: SWAPI.dev</p>
+    
   </div>
+  
+
 </footer>
+
 </html>
