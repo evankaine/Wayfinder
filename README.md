@@ -184,4 +184,4 @@ minusButton.addEventListener('click', event => {
 ```
 
 ## Change Log
- 
+Wireframe of site was adjusted to accommodate page flipping site style instead of search engine style.
