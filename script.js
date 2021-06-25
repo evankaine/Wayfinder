@@ -15,20 +15,18 @@ minusButton.addEventListener('click', event => {
     page = 6
   }
     getData(page)
-    console.log(page)
     return page
   });
 
-  plusButton.addEventListener('click', event => {
-    event.preventDefault();
-    removeThis()
-    if (page < 6) {
-      page++
-    } else if (page = 6) {
-      page = 1
-    }
-    getData(page)
-    console.log(page)
+plusButton.addEventListener('click', event => {
+  event.preventDefault();
+  removeThis()
+  if (page < 6) {
+    page++
+  } else if (page = 6) {
+    page = 1
+  }
+  getData(page)
     return page
   });
 
@@ -39,7 +37,7 @@ async function getData() {
     const response = await axios.get(`https://swapi.dev/api/planets/?page=${page}`)
 
     const renderList = (response.data.results)
-    console.log(renderList)
+  
 
     for (i = 0; i < renderList.length; i++) {
 
