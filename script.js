@@ -39,7 +39,7 @@ async function getData() {
     const response = await axios.get(`https://swapi.dev/api/planets/?page=${page}`)
 
     const renderList = (response.data.results)
-
+    console.log(renderList)
 
     for (i = 0; i < renderList.length; i++) {
 
@@ -51,6 +51,11 @@ async function getData() {
 
       titleName.textContent = `${renderList[i].name}`
       titleDiv.append(titleName)
+      
+      const imgPoster = document.createElement('img')
+      imgPoster.classList.add('satellite')
+      imgPoster.setAttribute('src', `./Planet-images/${renderList[i].name}.jpeg`)
+      titleDiv.append(imgPoster)
 
       const terrain = document.createElement('h4')
       terrain.textContent = `Terrain: ${renderList[i].terrain}`
