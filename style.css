@@ -28,8 +28,6 @@ header {
 #logo {
   font-size: 40px;
   font-family: fantasy;
-  
-  
   color: whitesmoke;
 }
 #logo span {
@@ -190,7 +188,7 @@ p {
 
 
 
-@media (max-width: 375px){
+@media (max-width: 420px){
   .cards {
     font-size: small;
   }
