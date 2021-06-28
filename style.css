@@ -95,7 +95,6 @@ img.github:hover{
   flex-direction: row;
   flex-wrap: wrap;
   margin: 0px 250px 0px 250px;
-  justify-content: flex-end;
   justify-content: space-evenly;
   
 }
@@ -119,7 +118,7 @@ img.github:hover{
   width: 500px;
 }
 img.satellite {
-  padding: 0px 0px 20px 0px;
+  padding: 0px 0px 10px 0px;
   max-width: 60px;
   min-width: 60px;
   max-height: auto;
@@ -134,23 +133,28 @@ img.satellite {
 
 
 h3{
-  font-size: 17px;
- text-align: center;
-padding: 10px 0px 10px 0px;
- margin: 0 auto;
- color:whitesmoke;
- font-family: 'Rajdhani', sans-serif;
-  font-weight: 600;
-
+  font-size: 15px;
+  text-align: center;
+  padding: 10px 0px 10px 0px;
+  margin: 0 auto;
+  color:whitesmoke;
+  /* font-family: 'Rajdhani', sans-serif;
+  font-weight: 600; */
+  font-family: 'Orbitron', sans-serif;
+  font-weight: 500;
+  letter-spacing: 2px;
 }
 h4 {
-  font-size: 10px;
+  font-size: 8px;
   text-align: center;
   padding: 2.5px 5px 2.5px 5px;
   margin: 0 auto;
   color: whitesmoke;
-  font-family: 'Rajdhani', sans-serif;
-  font-weight: 300;
+  /* font-family: 'Rajdhani', sans-serif;
+  font-weight: 300; */
+  font-family: 'Orbitron', sans-serif;
+  font-weight: 500;
+  letter-spacing: 2px;
 }
 
 
@@ -225,7 +229,7 @@ p {
   
 }
 
-@media (max-width: 800px){
+@media (max-width: 1200px){
   .planet-list {
     margin: 0px 100px 0px 100px;
   }
