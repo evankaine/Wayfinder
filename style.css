@@ -28,7 +28,10 @@ header {
 #logo {
   font-size: 40px;
   font-family: fantasy;
-  color: whitesmoke;
+  /* color: whitesmoke; */
+  background: -webkit-linear-gradient(white, #627282);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 #logo span {
   color: #6f2232;
@@ -39,19 +42,19 @@ header {
 
 
 img.linkedin {
-  max-width: 35px;
-  min-width: 35px;
+  max-width: 30px;
+  min-width: 30px;
   max-height: auto;
   float: right;
-  padding: 5px 22px 10px 5px;
+  padding: 10px 22px 10px 5px;
   
 }
 img.github {
-  max-width: 35px;
-  min-width: 35px;
+  max-width: 30px;
+  min-width: 30px;
   max-height: auto;
   float: right;
-  padding: 5px 5px 10px 5px;
+  padding: 10px 5px 10px 5px;
 }
 img.linkedin:hover{
   opacity: 0.5;
@@ -74,7 +77,7 @@ img.github:hover{
   width: 60px;
   height: 30px;
   margin: 0px 30px 10px 30px;
-  font-size: 12px;
+  font-size: 16px;
   border-color: transparent;
   opacity: .8;
   cursor: pointer;
@@ -139,9 +142,13 @@ h3{
   font-family: 'Orbitron', sans-serif;
   font-weight: 500;
   letter-spacing: 2px;
+
+  background: -webkit-linear-gradient(white, #93a0ac);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 h4 {
-  font-size: 8px;
+  font-size: 8.5px;
   text-align: center;
   padding: 2.5px 5px 2.5px 5px;
   margin: 0 auto;
@@ -149,6 +156,10 @@ h4 {
   font-family: 'Orbitron', sans-serif;
   font-weight: 500;
   letter-spacing: 2px;
+
+  background: -webkit-linear-gradient(white, #dfe4e9);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 
@@ -167,6 +178,7 @@ footer {
   font-family: 'Rajdhani', sans-serif;
   font-weight: 600;
   opacity: .6;
+  
 }
 #scrollToTopBtn {
   background: #6f2232;
@@ -178,6 +190,9 @@ footer {
   border-color: transparent;
   opacity: .8;
   cursor: pointer;
+}
+#scrollToTopBtn:hover{
+  opacity:1;
 }
 p {
   text-align: center;
