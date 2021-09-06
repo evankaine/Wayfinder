@@ -124,7 +124,7 @@ https://swapi.dev/api/planets/
 
 ## Priority Matrix
 
-https://i.imgur.com/8Gbv5CR.png
+![imageAlt](https://i.imgur.com/8Gbv5CR.png)
 
 ## Timeframes
 
