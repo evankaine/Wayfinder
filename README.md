@@ -11,7 +11,7 @@ This project allows the user to search the Star Wars galaxy to find planets and 
 
 ## Wireframe
 
-![imageAlt](https://i.imgur.com/n38WoEu.png)
+![imageAlt](https://i.imgur.com/6st1oUO.png)
 
 ## API and Data Sample
 
