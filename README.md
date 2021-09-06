@@ -9,6 +9,10 @@ https://evankaine.github.io/Wayfinder/
 
 This project allows the user to search the Star Wars galaxy to find planets and access detailed information about the desired location.
 
+## Wireframe
+
+![imageAlt](https://i.imgur.com/EnciFAv.png)
+
 ## API and Data Sample
 
 https://swapi.dev/api/planets/
@@ -94,9 +98,6 @@ https://swapi.dev/api/planets/
             "url": "https://swapi.dev/api/planets/3/"
         }
 ```
-## Wireframes
-
-https://i.imgur.com/z1sZLds.png
 
 #### MVP 
 
